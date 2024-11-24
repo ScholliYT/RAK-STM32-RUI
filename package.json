@@ -1,0 +1,16 @@
+{
+  "name": "framework-arduinoststm32-rui3",
+  "version": "1.50000.0",
+  "description": " RUI3 BSP for RAK3172 modules ",
+  "keywords": [
+    "framework",
+    "arduino",
+    "Cortex-M",
+    "STM32WL"
+  ],
+  "homepage": "https://docs.rakwireless.com/product-categories/wisduo/rak3172-module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RAKWireless/RAK-STM32-RUI"
+  }
+}
