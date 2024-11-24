@@ -62,7 +62,6 @@ process_usb_configuration(cpp_defines)
 
 env.Append(
     LIBSOURCE_DIRS=[
-        join(FRAMEWORK_DIR, "libraries", "__cores__", "arduino"),
         join(FRAMEWORK_DIR, "libraries"),
     ]
 )
