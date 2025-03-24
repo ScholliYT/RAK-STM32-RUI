@@ -1,14 +1,14 @@
 out/external/lora/LoRaMac-node-4.7.0/src/mac/region/Region.c: \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/region/Region.c \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/LoRaMac.h \
- /home/jenkins/workspace/RUI_Release/rui-v3/component/core/board/rak3172/timer.h \
+ /home/jenkins/workspace/RUI_Release/rui-v3/component/core/board/rak11160/timer.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/STM32CubeWL/Utilities/timer/stm32_timer.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/STM32CubeWL/Drivers/CMSIS/Include/cmsis_compiler.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/STM32CubeWL/Drivers/CMSIS/Include/cmsis_gcc.h \
- /home/jenkins/workspace/RUI_Release/rui-v3/component/core/board/rak3172/utilities_conf.h \
+ /home/jenkins/workspace/RUI_Release/rui-v3/component/core/board/rak11160/utilities_conf.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/STM32CubeWL/Utilities/misc/stm32_mem.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/STM32CubeWL/Utilities/misc/stm32_tiny_vsnprintf.h \
- /home/jenkins/workspace/RUI_Release/rui-v3/component/core/board/rak3172/systime.h \
+ /home/jenkins/workspace/RUI_Release/rui-v3/component/core/board/rak11160/systime.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/STM32CubeWL/Utilities/misc/stm32_systime.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/LoRaMacTypes.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/region/RegionNvm.h \
@@ -17,10 +17,11 @@ out/external/lora/LoRaMac-node-4.7.0/src/mac/region/Region.c: \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/boards/utilities.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/secure-element-nvm.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/LoRaMacClassBNvm.h \
- /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/region/RegionAS923.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/region/Region.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/region/RegionCommon.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/LoRaMacHeaderTypes.h \
+ /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/region/Region.h \
+ /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/region/RegionAS923.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/region/RegionAU915.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/region/RegionCN470.h \
  /home/jenkins/workspace/RUI_Release/rui-v3/external/lora/LoRaMac-node-4.7.0/src/mac/region/RegionCN779.h \
