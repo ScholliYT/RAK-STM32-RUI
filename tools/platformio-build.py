@@ -111,7 +111,7 @@ env.Append(
         "SUPPORT_LORA_P2P",
         "REGION_AS923",
         "REGION_AU915",
-        "REGION_EU868"
+        "REGION_EU868",
         "REGION_KR920",
         "REGION_IN865",
         "REGION_US915",
@@ -233,7 +233,7 @@ libs.append(
         src_filter="+<*> -<.git/> -<.svn/> -<%s/> +<%s/> +<%s/> +<%s/> +<%s/> +<%s/> +<%s/>" % (
             join(FRAMEWORK_DIR, "cores", "STM32WLE", "external", "STM32CubeWL"),
             join(FRAMEWORK_DIR, "cores", "STM32WLE", "external", "STM32CubeWL", "Drivers", "STM32WLxx_HAL_Driver"),
-            join(FRAMEWORK_DIR, "cores", "STM32WLE", "external", "STM32CubeWL", "Utilities", "lmp"),
+            join(FRAMEWORK_DIR, "cores", "STM32WLE", "external", "STM32CubeWL", "Utilities", "lpm"),
             join(FRAMEWORK_DIR, "cores", "STM32WLE", "external", "STM32CubeWL", "Utilities", "misc"),
             join(FRAMEWORK_DIR, "cores", "STM32WLE", "external", "STM32CubeWL", "Utilities", "timer"),
             join(FRAMEWORK_DIR, "cores", "STM32WLE", "external", "STM32CubeWL", "Utilities", "trace"),
