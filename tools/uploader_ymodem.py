@@ -105,7 +105,10 @@ class Modem(Protocol):
         for _ in range(count):
             self.writer.write(CAN, timeout)
 
-    def send(self, stream, retry=30, timeout=10, quiet=False, callback=None, info=None):
+    def send(self, stream, retry=30, timeout=10, quiet=False, callback=None, info: dict=None):
+        if info:
+            for key, value in info.items():
+                self.logger.debug("File info: %s: %s", key, value)
         try:
             packet_size = dict(
                 xmodem    = 128,
@@ -779,6 +782,7 @@ def enter_dfu_mode():
     file_stream = open(zip_file, 'rb')
     file_info = {
             "name"      :   os.path.basename(zip_file),
+            "abs_path"  :   os.path.abspath(zip_file),
             "length"    :   os.path.getsize(zip_file),
             "mtime"     :   os.path.getmtime(zip_file),
             "source"    :   "win"
@@ -862,7 +866,6 @@ def detect_baudrate():
                 close_serial(ser)
                 return
         close_serial(ser)
-    print()
     upload_fail("Detect baudrate fail, can not get the baudrate")
 
 def check_boot_mode():
