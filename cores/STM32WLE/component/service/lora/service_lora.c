@@ -134,6 +134,18 @@ extern volatile testParameter_t testParam;
 extern uint8_t last_tx_channel; 
 static udrv_system_event_t rui_lora_join_cb_event = {.request = UDRV_SYS_EVT_OP_LORAWAN_JOIN_CB, .p_context = NULL};
 
+#ifdef SUPPORT_FUOTA
+static LmhpFragmentationParams_t LmhpFragmentationParam1 =
+{
+    /*.DecoderCallbacks =
+    {
+        .FragDecoderWrite = fuota_FragDecoderWrite,
+        .FragDecoderRead = fuota_FragDecoderRead,
+    },
+    .OnProgress = fuota_OnFragProgress,
+    .OnDone = fuota_OnFragDone,*/
+};
+#endif // SUPPORT_FUOTA
 
 static SingleChannel_t SingleChannelAU915 =
 {
